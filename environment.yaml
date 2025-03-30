@@ -1,0 +1,33 @@
+name: news-analysis
+channels:
+  - conda-forge
+  - defaults
+  - nvidia
+  - pytorch
+
+dependencies:
+  - python=3.11
+  - pip
+  - streamlit
+  - pandas
+  - setuptools
+  - cudatoolkit=11.5  # Match installed CUDA version
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+      - openai
+      - anthropic
+      - duckduckgo_search
+      - llama-index
+      - agent-protocol
+      - python-dotenv
+      - fpdf
+      - pytz
+      - python-dateutil
+      - nest-asyncio
+      - trio
+      - torch  # Required for LLM inference
+      - pydantic<2.0.0
+      - agent-protocol
+      - llama-index-llms-ollama

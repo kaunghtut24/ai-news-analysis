@@ -1,0 +1,22 @@
+# Python compiled stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS/filesystem stuff
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.idea/
+.vscode/
+
+# Conda environments
+env/
+news-analysis/
+
+# Streamlit generated files
+cassert
+.env

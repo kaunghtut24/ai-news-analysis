@@ -1,0 +1,5 @@
+streamlit==1.31.1
+nest-asyncio==1.6.0
+duckduckgo-search==3.9.4
+pdfkit==1.0.0
+python-dotenv==1.0.0

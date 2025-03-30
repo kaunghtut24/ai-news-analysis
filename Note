@@ -1,0 +1,3 @@
+pip install streamlit python-dotenv async-openai ldap3 llama-index duckduckgo_search fpdf python-dateutil pytz
+streamlit run main.py
+
